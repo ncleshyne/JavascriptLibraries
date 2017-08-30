@@ -15,10 +15,3 @@ One must not confuse the word "library" with "framework." The difference is quit
 > jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event 
 > handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of 
 > versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
