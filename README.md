@@ -15,3 +15,26 @@ One must not confuse the word "library" with "framework." The difference is quit
 > jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event 
 > handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of 
 > versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+jQuery is a widely-used Javascript library that helps you code faster. Its purpose is to make it much easier to use JavaScript on your website. It takes a few lines in jQuery to accomplish many lines of Javascript code making it a "write less, do more" kind of JavaScript library.
+
+```
+  JQUERY                                    IE9+
+    
+  $(el).fadeIn();                           function fadeIn(el) {
+                                               el.style.opacity = 0;
+                                               var last = +new Date();
+                                               var tick = function() {
+                                                el.style.opacity = +el.style.opacity + (new Date() - last) / 400;
+                                                last = +new Date();
+
+                                                if (+el.style.opacity < 1) {
+                                                  (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+                                                }
+                                              };
+
+                                              tick();
+                                            }
+
+                                            fadeIn(el);
+```
