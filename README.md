@@ -43,7 +43,7 @@ Rating: 4/5
 
 
 ## React
-<h1 align="center"><a href="https://facebook.github.io/react/" target="_blank"><img width="350" height="165" alt="Nicole Shayne" src="https://cdn-images-1.medium.com/max/640/1*XaGxIa_JuHc8YTR5Znv6tg.png"></a></h1>
+<h1 align="center"><a href="https://facebook.github.io/react/" target="_blank"><img width="350" height="170" alt="Nicole Shayne" src="https://cdn-images-1.medium.com/max/640/1*XaGxIa_JuHc8YTR5Znv6tg.png"></a></h1>
 <br>
 
 > React allows developers to create large web-applications that use data that can change over time, without reloading the page. 
@@ -70,28 +70,30 @@ Following is a rudimentary example of how React can be used in html using JSX an
 
 Rating: 4/5
 
-## React
-<h1 align="center"><a href="https://facebook.github.io/react/" target="_blank"><img width="350" height="80" alt="Nicole Shayne" src="https://cdn-images-1.medium.com/max/640/1*XaGxIa_JuHc8YTR5Znv6tg.png"></a></h1>
+## Lodash
+<h1 align="center"><a href="https://lodash.com/" target="_blank"><img width="350" height="80" alt="Nicole Shayne" src="http://blog.avarteq.com/wp-content/uploads/2016/02/Lodash.jpg"></a></h1>
 <br>
 
-> React allows developers to create large web-applications that use data that can change over time, without reloading the page. It aims > primarily to provide speed, simplicity and scalability. React processes only user interfaces in applications. This corresponds to View > in the Model-View-Controller (MVC) template, and can be used in combination with other JavaScript libraries or frameworks in MVC, such > as AngularJS. 
+> A modern JavaScript utility library delivering modularity, performance & extras.
 
-React is an open-source Javascript library maintained by Facebook and Instagram. Invented by Jordan Walke on 2013, who was working on Facebook Ads at that time. 
+Created by John-David Dalton, Lodash is a JavaScript library which provides utility functions for common programming tasks using the functional programming paradigm.
+It draws most of its ideas from Underscore.js and now receives maintenance from the original contributors to Underscore.js.
 
-Following is a rudimentary example of how React can be used in html using JSX and the ECMAScript 2015 JavaScript syntax.
+It makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
+Lodash’s modular methods are great for:
+
+  * Iterating arrays, objects, & strings
+  * Manipulating & testing values
+  * Creating composite functions
 ```
-  <div id="myReactApp"></div>
+  Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
+  
+   _.chunk(['a', 'b', 'c', 'd'], 2);
+  // => [['a', 'b'], ['c', 'd']]
 
-  <script type="text/babel">
-    class Greeter extends React.Component { 
-      render() { 
-        return <h1>{this.props.greeting}</h1>
-      } 
-    } 
-
-    ReactDOM.render(<Greeter greeting="Hello World" />, document.getElementById('myReactApp'));
-  </script>
+  _.chunk(['a', 'b', 'c', 'd'], 3);
+  // => [['a', 'b', 'c'], ['d']]
 ```
 
-Rating: 4/5
+Rating: 3/5
 
