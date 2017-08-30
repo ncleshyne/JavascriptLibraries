@@ -71,7 +71,7 @@ Following is a rudimentary example of how React can be used in html using JSX an
 Rating: 4/5
 
 ## Lodash
-<h1 align="center"><a href="https://lodash.com/" target="_blank"><img width="350" height="80" alt="Nicole Shayne" src="http://blog.avarteq.com/wp-content/uploads/2016/02/Lodash.jpg"></a></h1>
+<h1 align="center"><a href="https://lodash.com/" target="_blank"><img width="350" height="120" alt="Nicole Shayne" src="http://blog.avarteq.com/wp-content/uploads/2016/02/Lodash.jpg"></a></h1>
 <br>
 
 > A modern JavaScript utility library delivering modularity, performance & extras.
