@@ -43,7 +43,7 @@ Rating: 4/5
 
 
 ## React
-<h1 align="center"><a href="https://facebook.github.io/react/" target="_blank"><img width="350" height="130" alt="Nicole Shayne" src="https://cdn-images-1.medium.com/max/640/1*XaGxIa_JuHc8YTR5Znv6tg.png"></a></h1>
+<h1 align="center"><a href="https://facebook.github.io/react/" target="_blank"><img width="350" height="160" alt="Nicole Shayne" src="https://cdn-images-1.medium.com/max/640/1*XaGxIa_JuHc8YTR5Znv6tg.png"></a></h1>
 <br>
 
 > React allows developers to create large web-applications that use data that can change over time, without reloading the page. It aims > primarily to provide speed, simplicity and scalability. React processes only user interfaces in applications. This corresponds to View > in the Model-View-Controller (MVC) template, and can be used in combination with other JavaScript libraries or frameworks in MVC, such > as AngularJS. 
