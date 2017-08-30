@@ -9,6 +9,6 @@ One must not confuse the word "library" with "framework." The difference is quit
 <br>
 
 ##jQuery
-<h1 align="center"><a href="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg" target="_blank"><img width="350" height="80" alt="Nicole Shayne" src="images/l.png"></a></h1>
+<h1 align="center"><a href="https://jqueryui.com" target="_blank"><img width="350" height="80" alt="Nicole Shayne" src="https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg"></a></h1>
 
 
